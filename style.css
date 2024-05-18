@@ -8,3 +8,27 @@
   --Transparent-white: hsla(0, 0%, 100%, 0.75);
   --Very-light-gray: hsl(0, 0%, 95%);
 }
+
+.card__card {
+  background-color: aqua;
+  display: flex;
+}
+.card__firstColumn {
+  background-color: var(--Bright-orange);
+}
+.card__secondColumn {
+  background-color: var(--Dark-cyan);
+}
+.card__thirdColumn {
+  background-color: var(--very-dark-cyan);
+}
+.card__card h1 {
+  color: var(--Very-light-gray);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.card__card p {
+  color: var(--Transparent-white);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}

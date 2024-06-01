@@ -90,6 +90,7 @@ body {
 .card__secondColumn a,
 .card__thirdColumn a {
   background-color: white;
+  border: 2px solid white;
   border-radius: 20px;
   color: inherit;
   display: block;
@@ -98,6 +99,14 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   width: fit-content;
+}
+
+.card__firstColumn a:hover,
+.card__secondColumn a:hover,
+.card__thirdColumn a:hover {
+  background-color: transparent;
+  color: white;
+  transition: all 300ms;
 }
 
 .attribution {
